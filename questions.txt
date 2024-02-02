@@ -1,5 +1,3 @@
-rg.fr-par.scw.cloud/exampolytech2024
-cd6ef5fa-b728-4b84-90c1-eebfdef691a1
 
 16 ) Qu'est ce que Docker ? A quoi cela sert-il ?*
 
