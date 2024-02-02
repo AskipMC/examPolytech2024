@@ -1,0 +1,27 @@
+rg.fr-par.scw.cloud/exampolytech2024
+cd6ef5fa-b728-4b84-90c1-eebfdef691a1
+
+16 ) Qu'est ce que Docker ? A quoi cela sert-il ?*
+
+Docker est un outil permettant de lancer des applications dans des conteneurs. 
+Docker repose sur le principe de virtualisation. 
+Docker sert à ce qu'un programme qui fonctionne chez une personne fonctionne ailleurs pour éviter les effets de démonstration (quand ca marche pas au mauvais moment alors que ca fonctionne en local).
+Docker permet également un isolement des parties d'une applciation, isolement ne veut pas dire sécurité !
+
+17 ) Qu'est ce que la CI et la CD ? Pourquoi est-ce utile ?
+
+La CI signifie Intégration continue et la CD signifie Distribution continue.
+
+La CI permet d'automatiser l'intégration, dans un cas concret quand des développeurs push du code, il peut y avoir des tests qui se lancent. 
+Ces tests permettent de savoir à l'avance si une application va crash lors de la mise en production et donc on peut l'éviter.
+
+La CD permet d'automatiser le déploiment, dans un cas concret on peut build des images docker de manière automatique puis les push dans un repository de container.
+Lors de la mise en production, nous avons plus qu'à lancer nos nouvelles images.
+
+La CI/CD permet d'abord plus de garantie de bon fonctionnement, une simplicité de déploiement ainsi qu'une meilleur disponibilité pour les utilisateurs. On pourrait imaginer en plus de ce qui a été fait pendant cet examen, un cluster Kubernetes qui redirige vers plusieurs serveurs contenant le projet et à chaque push, les seveurs se mettent à jour un par un afin d'éviter une interuption pour les utilisateurs. 
+
+18 ) Qu'avez vous pensez du cours ?
+
+19 ) Surprenez moi
+
+ Surprise !
