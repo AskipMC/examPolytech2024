@@ -24,22 +24,6 @@ jobs:
       with:
         java-version: '8'
         distribution: 'temurin'
-        cache: maven
 
     - name: Build with Maven
       run: mvn -B package --file pom.xml -DskipTests
-
-    - name: Login to Registry
-      uses: docker/login-action@v3
-      with:
-        registry: rg.fr-par.scw.cloud/exampolytech2024
-        username: ${{ secrets.REGISTERY_USERNAME }}
-        password: ${{ secrets.REGISTERY_PASSWORD }}
-
-    - name: Build and push
-      uses: docker/build-push-action@v5
-      with:
-        context: .
-        file: Dockerfile.gha
-        push: false
-        tags: rg.fr-par.scw.cloud/exampolytech2024/java:matteo
