@@ -1,3 +1,4 @@
+Les "Dockerfile.gha" ne servent à rien.
 
 16 ) Qu'est ce que Docker ? A quoi cela sert-il ?*
 
