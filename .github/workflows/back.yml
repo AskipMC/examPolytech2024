@@ -41,5 +41,5 @@ jobs:
       with:
         context: .
         file: Dockerfile.gha
-        push: true
+        push: false
         tags: rg.fr-par.scw.cloud/exampolytech2024/java:matteo
