@@ -20,6 +20,10 @@ La CI/CD permet d'abord plus de garantie de bon fonctionnement, une simplicité 
 
 18 ) Qu'avez vous pensez du cours ?
 
+Je pense que ce cours a été un des plus utile et intéressant du programme, il permet de faire le lien entre ce que l'on apprend à l'école et la réalité en entreprise.
+Même si actuellement toutes les entreprises ne fonctionnent pas avec Docker, de plus en plus l'utilise.
+Même pour un aspect projet personnel, c'est également très intéressant.
+
 19 ) Surprenez moi
 
  Surprise !
