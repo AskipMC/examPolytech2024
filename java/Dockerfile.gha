@@ -1,0 +1,11 @@
+FROM eclipse-temurin:8-jre
+
+WORKDIR /app
+
+LABEL maintainer="Matteo"
+
+COPY  target/*.jar back.jar
+
+EXPOSE 8448
+
+CMD ["java",  "-jar", "back.jar"]
